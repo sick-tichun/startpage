@@ -1,31 +1,81 @@
-/* Load all CSS */
-@import url('base/normalize.css');
-@import url('base/font-face.css');
-@import url('base/base.css');
-@import url('base/dummy-body-background.css');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik&display=swap');
 
-/* Bars and Panels */
-@import url('bars/bar.css');
-@import url('bars/top-panel.css');
-@import url('bars/clock.css');
-@import url('bars/dock.css');
-@import url('bars/dock-buttons.css');
 
-/* Centered box and Contents */
-@import url('centeredbox/centered-box.css');
-@import url('centeredbox/centered-box-overlay.css');
-@import url('centeredbox/profile-image.css');
-@import url('centeredbox/search-box.css');
-@import url('centeredbox/auto-suggestion.css');
 
-/* Screens */
-@import url('screens/screens.css');
-@import url('screens/weather-screen.css');
-@import url('screens/web-menu.css');
 
-/* Dashboard and Settings */
-@import url('dashboard/dashboard.css');
-@import url('dashboard/greeter-date-message.css');
-@import url('dashboard/search-engine-settings.css');
-@import url('dashboard/weather-settings.css');
-@import url('dashboard/theme-engine.css');
+
+body {
+    background-color: darkcyan;
+}
+div.box {
+    position: absolute;
+    width: 470px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 16px;
+    padding-left: 75px;
+}
+
+
+
+
+#box1 {
+
+    left: 300px;
+    top: 140px;
+    z-index: 2;
+    background-color: mediumseagreen;
+}
+#box1_backdrop {
+
+    left: 307px;
+    top: 147px;
+    z-index: 1;
+    background-color: #0d5c63;
+}
+
+
+#box2 {
+    
+    left: 1000px;
+    top: 180px;
+    z-index: 2;
+    background-color: mediumseagreen;
+}
+#box2_backdrop {
+
+    left: 1007px;
+    top: 187px;
+    z-index: 1;
+    background-color: #0d5c63;
+
+}
+
+
+
+
+
+p {
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 20px;
+
+}
+
+
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: #011638;
+}
+
+#scummyhead {
+    padding-right: 32px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #0e0e52
+}
