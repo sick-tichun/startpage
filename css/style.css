@@ -32,7 +32,8 @@ div.box {
     left: 307px;
     top: 147px;
     z-index: 1;
-    background-color: rgb(0, 56, 56);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
 }
 
 
@@ -46,7 +47,8 @@ div.box {
     left: 1007px;
     top: 187px;
     z-index: 1;
-    background-color: rgb(0, 56, 56);
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
 }
 
 
